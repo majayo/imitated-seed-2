@@ -1,5 +1,5 @@
 더시드 엔진 (구 프론트엔드 기준) 모방 프로젝트.  
-< "엔진 내부 UI는 상관없음." ( https://feedback.theseed.io/posts/280 ) >  
+< "엔진 내부 UI는 상관없음." ( https://feedback.namu.wiki/posts/280 ) >  
 테스트 서버 - [바로가기](https://theseed.glitch.me/)
 
 나무픽스와 거의 호환된다.
@@ -9,8 +9,8 @@ Pull Request 시 서버 코드에는 Node.js 13 이상, 프론트엔드 자바�
 ## 기초 사용 방법
 - **만약 config.json에서 `use_external_js`과 `use_external_css`이 true이면 아래 단계는 생략해도 된다.** 스킨만 추가하면 된다.
   - css, js 디렉토리를 만든다.
-    - https://theseed.io/js/theseed.js, https://theseed.io/js/jquery-2.1.4.min.js, https://theseed.io/js/jquery-1.11.3.min.js, https://theseed.io/js/intersection-observer.js, https://theseed.io/js/dateformatter.js )를 각각 다운로드받아 js 디렉토리에 복사한다.
-    - https://theseed.io/css/wiki.css, https://theseed.io/css/katex.min.css, https://theseed.io/css/diffview.css )를 각각 다운로드받아 css 디렉토리에 복사한다.
+    - https://namu.wiki/js/theseed.js, https://namu.wiki/js/jquery-2.1.4.min.js, https://namu.wiki/js/jquery-1.11.3.min.js, https://namu.wiki/js/intersection-observer.js, https://namu.wiki/js/dateformatter.js )를 각각 다운로드받아 js 디렉토리에 복사한다.
+    - https://namu.wiki/css/wiki.css, https://namu.wiki/css/katex.min.css, https://namu.wiki/css/diffview.css )를 각각 다운로드받아 css 디렉토리에 복사한다.
 - skins 디렉토리를 만든다.
   - [buma](https://github.com/LiteHell/theseed-skin-buma/tree/d77eef50a77007da391c5082b4b94818db372417), [liberty](https://github.com/namuwiki/theseed-skin-liberty/tree/153cf78f70206643ec42e856aff8280dc21eb2c0) 등 원하는 스킨을 내려받고 skins 디렉토리에 스킨 이름으로 하위디렉토리를 만들어 복사한다.
 - `npm i`를 실행한다.
@@ -24,8 +24,8 @@ Pull Request 시 서버 코드에는 Node.js 13 이상, 프론트엔드 자바�
 - config.json 수정으로 숨겨진 설정을 제어할 수 있다.
   - `disable_email`: (기본값 false) 전자우편 인증을 끈다.
   - `disable_login_history`: (기본값 false) 로그인 내역을 기록하지 않게 한다.
-  - `use_external_js`: (기본값 false) theseed.js, jQuery 등을 [theseed.io](https://theseed.io)에서 불러온다.
-  - `use_external_css`: (기본값 false) wiki.css 등을 [theseed.io](https://theseed.io)에서 불러온다.
+  - `use_external_js`: (기본값 false) theseed.js, jQuery 등을 [namu.wiki](https://namu.wiki)에서 불러온다.
+  - `use_external_css`: (기본값 false) wiki.css 등을 [namu.wiki](https://namu.wiki)에서 불러온다.
   - `allow_account_deletion`: (기본값 false) 계정 탈퇴를 허용한다.
   - `allow_account_rename`: (기본값 false) 닉네임 변경을 허용한다.
   - `search_host`: (기본값 "127.5.5.5") 검색 서버 호스트 주소
