@@ -79,7 +79,8 @@ table.diff .insert {
 table.diff th.author {
 	text-align:right;
 	border-top:1px solid #BBC;
-	background:#EFEFEF
+	background:#EFEFEF;
+	font-size: 0
 }
 
 table.diff div {
